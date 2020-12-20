@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="2020/12/20/%E4%BD%BF%E7%94%A8Anaconda%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%96%B9%E5%BC%8F%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85Pytorch/"/>
+      <url>2020/12/20/%E4%BD%BF%E7%94%A8Anaconda%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%96%B9%E5%BC%8F%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85Pytorch/</url>
+      
+        <content type="html"><![CDATA[<h1 id="使用Anaconda在本地方式下载安装Pytorch"><a href="#使用Anaconda在本地方式下载安装Pytorch" class="headerlink" title="使用Anaconda在本地方式下载安装Pytorch"></a>使用Anaconda在本地方式下载安装Pytorch</h1><h6 id=""><a href="#" class="headerlink" title=""></a></h6><h2 id="打开naconda，创建对应环境"><a href="#打开naconda，创建对应环境" class="headerlink" title="打开naconda，创建对应环境"></a>打开naconda，创建对应环境</h2><h2 id="-1"><a href="#-1" class="headerlink" title=""></a><img src="C:\Users\11010\Pictures\Blog\1.png"></h2><p>选择你的Python版本，这里我选择的是Python3.8。环境名字自己命名（因为我已经安装了Pytorch1.7.1所以换了个名字，改为170）。</p><p><img src="C:\Users\11010\Pictures\Blog\2.png"></p><p>然后，打开Anaconda Prompt。激活环境：activate pytorch171</p><p><img src="C:\Users\11010\Pictures\Blog\3.png"></p><h2 id="安装Pytorch"><a href="#安装Pytorch" class="headerlink" title="安装Pytorch"></a>安装Pytorch</h2><p>在网上下载相关的包，这里我推荐清华镜像源，下载与Python版本对应的Pytorch和torchvision文件。</p><p>清华镜像源网址：</p><p><a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/</a></p><p>在这里选择Python版本相应的文件（注意！这里说的Python版本是指Anaconda中自动安装的python的版本，所以你要去Anaconda Prompt里面输入python –version来查看Python版本。我的Python是3.8版本的，所以下的两个文件都是带-py3.8的。）</p><p>文件名称中带“cuda”的都是需要使用gpu的，所以如果下载这种文件那你还要去查看自己的gpu版本，我下载的是 pytorch-1.7.1-py3.8_cuda110_cudnn8_0.tar.bz2 和 torchvision-0.8.2-py38_cu110.tar.bz2。</p><p>下载好以后，在Anaconda Prompt（注意！是在已激活的Pytorch171下），依次输入命令 conda install D:\pytorch-1.7.1-py3.8_cuda110_cudnn8_0.tar.bz2 和 conda install D:\torchvision-0.8.2-py38_cu110.tar.bz2（pytorch-1.7.1-py3.8_cuda110_cudnn8_0.tar.bz2 是我的文件路径.，路径不可带空格。)</p><p>安装完成后，验证即可</p><p><img src="C:\Users\11010\Pictures\Blog\4.png"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>article title</title>
       <link href="2020/11/07/article-title-1/"/>
       <url>2020/11/07/article-title-1/</url>
